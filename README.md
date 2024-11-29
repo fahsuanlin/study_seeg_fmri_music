@@ -12,3 +12,7 @@ SEEG subject list: s011, s012, s013, s014, s015, s022, s023, s024, s025, s026, s
   - make_seeg_fwd_wb_dec_091924.m: collect forward solution
   - make_dec_wb_mne_102224.m: MNE
   - calc_dec_wb_mne_roi_102224.m: collect source modeling results at ROIs
+ 
+- Entrainment: correlation between acoustics and SEEG signals:
+  - electrode_entrain_env_091924.m: correlate acoustic envelop with SEEG signals
+  - electrode_entrain_env_freq_091924.m: correlate frequency components of the acoustic envelop with SEEG signals 
