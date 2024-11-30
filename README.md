@@ -47,7 +47,8 @@ ch_select={
     [40];                           %s031;
     [75 76 77];                     %s039;
     };
-    ```
+    
+```
     output: seeg_tfr_multiple_avg_111724.mat tfr_s tfr_v freqVec
 
 ## SEEG source processing
