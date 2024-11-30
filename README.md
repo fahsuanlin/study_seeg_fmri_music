@@ -9,6 +9,7 @@ SEEG subject list: s011, s012, s013, s014, s015, s022, s023, s024, s025, s026, s
   'sxxx' are codes for each subject
 - "average" TFR across subjects: get_seeg_tfr_multiple_avg_111724.m
   This script selected electrodes around A1 (15 mm to the centroid of either left or right A1) and average their data
+  
   ```
   file_seeg_tfr={
         'seeg_tfr_hrf_s050_110824.mat'; %lh 3.2 mm to A1
@@ -48,7 +49,7 @@ ch_select={
     [75 76 77];                     %s039;
     };
     
-```
+
     output: seeg_tfr_multiple_avg_111724.mat tfr_s tfr_v freqVec
 
 ## SEEG source processing
