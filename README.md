@@ -49,7 +49,6 @@ SEEG subject list: s011, s012, s013, s014, s015, s022, s023, s024, s025, s026, s
     [75 76 77];                     %s039;
     };
 </details>
-
     output: seeg_tfr_multiple_avg_111724.mat tfr_s tfr_v freqVec
 
 ## SEEG source processing
