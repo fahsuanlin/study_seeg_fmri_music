@@ -11,6 +11,7 @@ SEEG subject list: s011, s012, s013, s014, s015, s022, s023, s024, s025, s026, s
   This script selected electrodes around A1 (15 mm to the centroid of either left or right A1) and average their data
   
   <details>
+	  <summary> selected electrdoes </summary>
   file_seeg_tfr={
         'seeg_tfr_hrf_s050_110824.mat'; %lh 3.2 mm to A1
         'seeg_tfr_hrf_s011_110824.mat'; %lh 5.0 mm to A1
