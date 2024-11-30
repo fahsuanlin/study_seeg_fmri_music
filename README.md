@@ -28,8 +28,7 @@ SEEG subject list: s011, s012, s013, s014, s015, s022, s023, s024, s025, s026, s
         'seeg_tfr_hrf_s036_110824.mat'; %rh 10.9 mm to A1
         'seeg_tfr_hrf_s031_110824.mat'; %rh 
         'seeg_tfr_hrf_s039_110824.mat'; %rh 
-    };
-ch_select={
+    }; ch_select={
     [58 59 60 61 57];      %s050; T2, T3, T4, T5
     [108 109 110 111 112 71 72];  %s011; T1, T2, T3, T4
     [64 65 66 63 67 93];         %s026; T3, T4, T5
