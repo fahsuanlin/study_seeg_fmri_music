@@ -54,11 +54,15 @@ SEEG subject list: s011, s012, s013, s014, s015, s022, s023, s024, s025, s026, s
 ## SEEG source processing
 - get electrode data: `prepare_seeg_091924.m` and `prepare_seeg_ncov_091924.m` in all subjects
 - source modeling:
+  Individually:
   - make_bem_d10_wb_dec_091924.m: create BEM
   - make_fwd_openmeeg_091924.m: calculate forward solution
   - make_seeg_fwd_wb_dec_091924.m: collect forward solution
   - make_dec_wb_mne_102224.m: MNE
+
+  At the group levcel:
   - calc_dec_wb_mne_roi_102224.m: collect source modeling results at ROIs
+  - get_seeg_source_tfr_hrf_111724.m: Use SVD to pool data across participants 
  
 - Entrainment: correlation between acoustics and SEEG signals:
   - electrode_entrain_env_091924.m: correlate acoustic envelop with SEEG signals
